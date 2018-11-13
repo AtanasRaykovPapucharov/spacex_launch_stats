@@ -7,10 +7,9 @@
 ```bash
 # Install dependencies (server & client)
 npm install
-cd client && npm install
 
 # Run server & client (:3000 & :5000)
-npm run dev
+npm start
 
 # Server only (:5000)
 npm run server
@@ -23,18 +22,3 @@ cd client && npm run build
 
 # Graphiql - http://localhost:5000/graphql
 ```
-
-## App Info
-
-### Author
-
-Brad Traversy
-[Traversy Media](http://www.traversymedia.com)
-
-### Version
-
-1.0.0
-
-### License
-
-This project is licensed under the MIT License
